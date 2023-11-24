@@ -1,0 +1,35 @@
+
+.row{
+    display: flex;
+    gap:1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;   
+    padding: .5rem;
+    border: double 3px black;
+    flex-grow: 1;
+    flex-basis: 350px;
+    border-radius: 20px;
+}
+ h2:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.card:hover{
+background-color: #ddd;
+}
+h2{
+    text-align: center;
+    color: red;
+    position: relative;
+}
+p{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
